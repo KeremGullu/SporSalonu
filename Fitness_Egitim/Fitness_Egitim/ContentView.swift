@@ -66,7 +66,7 @@ struct ContentView_Previews: PreviewProvider {
 
 
 class ChatGPTService {
-    let apiKey = "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" // OpenAI API anahtarınızı buraya ekleyin
+    let apiKey = "" // OpenAI API anahtarınızı buraya ekleyin
 
     func sendMessageToGPT(_ message: String, completion: @escaping (String) -> Void) {
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
